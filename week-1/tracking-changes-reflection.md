@@ -12,7 +12,7 @@
     HEAD is the commit you're currently on.
 
     #5. What are the 3 stages of a git change and how do you move a file from one stage to the other?
-    1. Make and commit changes. Make sure to pull from master first to be synced. Then git checkout feature branch and file, git commit when done.
+    1. Make and commit changes. Make sure to pull from master first to be synced. Then git checkout feature branch, git commit when done.
     2. Push to github. Before pushing, pull from master again to make sure it's synced and merge it with the feature branch.
     3. Merging. Pull request to have it merged with the master branch.
 
