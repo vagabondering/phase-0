@@ -32,3 +32,11 @@ rmdir - removes/delete directory
 rm - removes/deletes file
 
 help - provides more information and options about the command.
+
+### 1.4 Forking and Cloning Reflection
+Make your way to the github user that you want to replicate the project from. In order to get your version of the project, you need to fork it, which means you get your own copy on the server without affecting the original by clicking on the fork icon. If you want to have the copy on your computer, you have to clone the project. To clone, copy the clone url (Using HTTPS version for now) to paste into the shell using git clone command:
+$ git clone "copied_url"
+
+Forking a repository allows you to take existing work and make changes from there, saving you time to do everything from scratch. It also allows you to be synced up with the latest work.
+
+I only had a small mishap of cloning at the first step using SSH url instead of the HTTPS one, other than that didn't have much struggle. I've now learned what git and github is and how to fork/clone a project.
