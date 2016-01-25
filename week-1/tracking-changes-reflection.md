@@ -3,7 +3,7 @@
     It keeps copies of old work so if something brakes, it saves time and work to revert to older version. It also allows the developer compare and see changes of improvements or faults.
 
     #2. What is a commit?
-    Commit is to save the changes into the repository and creating a backed up version that you can revert to.
+    Commit is to save the changes into the repository and creating a backed up copy that you can revert to.
 
     #3. What are the best practices for commit messages?
     To be as detailed as you can, stating what changes you did and why.
@@ -12,9 +12,9 @@
     HEAD is the commit you're currently on.
 
     #5. What are the 3 stages of a git change and how do you move a file from one stage to the other?
-    1. Make and commit changes. Make sure to pull from master first to be synced. Then git checkout feature branch, git commit when done.
-    2. Push to github. Before pushing, pull from master again to make sure it's synced and merge it with the feature branch.
-    3. Merging. Pull request to have it merged with the master branch.
+    1. Checkout the project, make changes and save.
+    2. Stage the file for commit, double check that everything looks right and ready to be submitted.
+    3. Commit the files and store it permantently to the Git directory.
 
     #6. Write a handy cheatsheet of the commands you need to commit your changes?
     - git check out -b branch-name
