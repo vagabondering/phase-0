@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<img src="imgs/*"/>
-
-
-<!--
 
     -How can you use Chrome's DevTools inspector to help you format or position elements?
 
@@ -32,6 +26,3 @@
     -What was your impression of this challenge overall? (love, hate, and why?)
 
     I loved this because I can see the edits live, which allows me to experiment around and test to see what each attribute does.
-
-    -->
-</html>
