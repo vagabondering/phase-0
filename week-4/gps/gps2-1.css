@@ -1,0 +1,37 @@
+header {
+  font-family: Verdana;
+  color: #b300b2;
+  background-color: #0099ff;
+}
+
+.column-1 {
+  float:left;
+  width: 40%;
+  margin-left: 3em;
+  height: 60%;
+  clear: left;
+  border: solid 1px;
+  padding: 1em;
+  color: #b300b2;
+}
+
+.column-2 {
+  width: 40%;
+  float: right;
+  margin-right: 3em;
+  height: 60%;
+  clear: right;
+  border: solid 1px;
+  padding: 1em;
+  color: #b300b2;
+}
+
+footer {
+  clear: both;
+  margin-top: 90%;
+  width: 100%;
+  height: 10%;
+  padding-top: 5em;
+  color: #b300b2;
+  background-color: #b30000;
+}
