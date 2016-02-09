@@ -24,4 +24,8 @@ print minute_decade
 print " mintues in a decade"
 ```
 
+Defining Variables:
 https://github.com/vagabondering/phase-0/blob/master/week-4/defining-variables.rb
+
+Simple String Methods:
+https://github.com/vagabondering/phase-0/blob/master/week-4/simple-string.rb
