@@ -29,3 +29,6 @@ https://github.com/vagabondering/phase-0/blob/master/week-4/defining-variables.r
 
 Simple String Methods:
 https://github.com/vagabondering/phase-0/blob/master/week-4/simple-string.rb
+
+Local Variables and Basic Arithmetical Expressions:
+https://github.com/vagabondering/phase-0/blob/master/week-4/basic-math.rb
