@@ -1,6 +1,6 @@
 # Leap Years
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself, with: Sami Zhang ].
 
 # Your Solution Below
 
