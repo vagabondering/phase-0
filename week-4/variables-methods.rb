@@ -32,3 +32,9 @@ print sum
 
 # What was confusing about this material? What made sense?
 # I was initially confused about the whole rspec workflow but it makes more sense now after using it correctly.
+
+# Additional exercises:
+
+# https://github.com/vagabondering/phase-0/blob/master/week-4/address/my_solution.rb
+
+# https://github.com/vagabondering/phase-0/blob/master/week-4/math/my_solution.rb
