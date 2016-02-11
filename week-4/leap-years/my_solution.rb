@@ -10,11 +10,11 @@ year = gets.to_i
 
 #IF the year input is divisible by 4 or 400, leap year = true else false
 def leap_year?(year)
-  if year % 4 == 0
+  if year % 4 == 0 && year % 100 != 0
     true
   elsif year % 400 == 0
     true
-  elsif year % 100 == 0
+  elsif year % 4 == 0 && year % 100 == 0 && year % 400 != 0
     false
   else
     false

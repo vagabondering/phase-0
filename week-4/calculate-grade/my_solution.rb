@@ -8,15 +8,15 @@ grade = gets.to_i
 
 def get_grade(grade)
   if grade >= 90
-    puts "A"
+    p "A"
   elsif grade >= 80
-    puts "B"
+    p "B"
   elsif grade >= 70
-    puts "C"
+    p "C"
   elsif grade >= 60
-    puts "D"
+    p "D"
   else
-    puts "F"
+    p "F"
   end
 end
 
