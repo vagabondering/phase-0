@@ -25,18 +25,13 @@ end
 # for integer in lower_bound..upper_bound
 #   p integer
 # if list_of_integers.each >= lower_bound  && list_of_integers.each <= upper_bound
+new_array = []
 list_of_integers.each do |number| if number >= lower_bound && number <= upper_bound
-p number
-new_array = [number]
-p new_array
+new_array.push(number)
+end
+end
 sum = new_array.length
-return sum
+sum
 end
 
-end
-
-  # p list_of_integers.length
-# end
-end
-
-p count_between([1, 2, -200], 0, 100)
+p count_between([-10, 1, 2], 0, 100)
