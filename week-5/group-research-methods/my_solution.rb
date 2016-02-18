@@ -102,8 +102,8 @@ def my_hash_deletion_method!(source, thing_to_delete)
 end
 
 # # Identify and describe the Ruby method(s) you implemented.
-# #
-# #
+# # For the array method, I went through each element in the list and converted each to string by using .to_s. I then use .include? to see if the string contains the letter specified in the argument. If it does contain the give letter, it'll evaluate to true and proceed to delete the string from the array using .delete method.
+# # The same .delete method is applied here as the object to be removed is specified in the argument.
 # #
 
 
