@@ -5,9 +5,8 @@
 // Program Structure
 // Write your own variable and do something to it.
 
-var question = prompt ("What's your favorite food"){
+var question = prompt ("What's your favorite food")
 return "Hey! That's my favorite too!";
-};
 console.log(question);
 
 
