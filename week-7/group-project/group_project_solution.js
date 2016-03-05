@@ -14,5 +14,5 @@
  // For MEDIAN function,
  // If the length of the array object is even, find the two middle elements, sum them up and and divide it by two.
  // else
-  // Find middle element of the array and divide it by two.
+  // Find middle element of the array.
 
