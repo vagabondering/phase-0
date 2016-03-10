@@ -6,7 +6,7 @@ I used one-to-one relationship for storing a person's drivers license because a 
 
 Many-to-many Relationships:
 
-<img src="imgs/ManyToManyRelationship.jpg">
+<img src="imgs/ManyToManyRelationships.jpg">
 
 
 What is a one-to-one database?
