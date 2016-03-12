@@ -64,9 +64,10 @@ var officers = {
 }
 
 // Pseudocode
-// For tallying, Search through each element in votes objects and see if VoteCount has the property of the name. If it does, add one value to object's property in voteCount object.
-// For seeing who won, go through each positions of the tallied votes and see which property has the highest value and assign that to the positions key in officers object.
-// Turn the tallied results into an array, use sort to get highest value.
+// For tallying, Search through each element in votes objects and see if VoteCount has the property of the name. If it does, add one value to object's property in voteCount object, if else create the object of the name.
+
+// For results, go through each positions of the tallied votes and see which nominee has the highest value and assign that to the positions key in officers object.
+//
 // __________________________________________
 // Initial Solution
 var positions = ['president', 'vicePresident', 'secretary', 'treasurer']
