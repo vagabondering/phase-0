@@ -1,8 +1,8 @@
 # OO Basics: Student
 
 
-# I worked on this challenge [by myself, with: ].
-# This challenge took me [#] hours.
+# I worked on this challenge [with: Hanna Taylor ].
+# This challenge took me [2] hours.
 
 # Pseudocode
 # Input is Array of 5 students, each student being a key containing a value of test score.
