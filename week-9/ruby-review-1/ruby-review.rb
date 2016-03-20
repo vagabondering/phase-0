@@ -15,6 +15,73 @@
 
 # Initial Solution
 
+# class GlobalCohort
+
+#   require 'date'
+#   attr_accessor :name, :email_list, :students, :num_of_students, :p0_start_date
+
+#   def initialize(name, email_list)
+#     @name = name
+#     @email_list = email_list
+#     @p0_start_date = Date.new(2016,02,29)
+#     @students = []
+#     @num_of_students = 0
+#     @today_date = Date.today
+#     @graduation_date = Date.new(2016,05,20)
+#   end
+
+#   def add_student(student)
+#     @students << student
+#     @num_of_students += 1
+#   end
+
+#   def remove_student(student)
+#     @students.delete(student)
+#     @num_of_students -= 1
+#   end
+
+#   def currently_in_phase
+#     if @today_date > @p0_start_date
+#       puts "Phase 0"
+#     elsif @today_date > Date.parse('2016-03-21')
+#       puts "Phase 1"
+#     elsif @today_date > Date.parse('2016-04-18')
+#       puts "Phase 2"
+#     else
+#       puts "Phase 3"
+#     end
+#   end
+
+#   def graduated?
+#     if @today_date > @graduation_date
+#       true
+#       puts "Graduated"
+#     else
+#       false
+#       puts "Not Graduated Yet"
+#     end
+#   end
+
+# end
+
+# class LocalCohort < GlobalCohort
+
+#   attr_accessor :city, :immersive_start_date, :graduation_date
+
+#   def initialize(name, email_list, city)
+#     @name = name
+#     @email_list = email_list
+#     @city = city
+#     @immersive_start_date = Date.new(2016,03,21)
+#     @graduation_date = Date.new(2016,05,20)
+#     @p0_start_date = Date.new(2016,02,29)
+#     @students = []
+#     @num_of_students = 0
+#   end
+# end
+
+# # Refactored Solution
+
 class GlobalCohort
 
   require 'date'
@@ -39,12 +106,11 @@ class GlobalCohort
   end
 
   def currently_in_phase
-    case immersive_start_date
-    when Date.new(2016,02,29)
+    if Date.today > Date.parse('2016-02-29')
       puts "Phase 0"
-    when Date.new(2016,03,21)
+    elsif @today_date > Date.parse('2016-03-21')
       puts "Phase 1"
-    when Date.new(2016,04,18)
+    elsif @today_date > Date.parse('2016-04-18')
       puts "Phase 2"
     else
       puts "Phase 3"
@@ -52,10 +118,12 @@ class GlobalCohort
   end
 
   def graduated?
-    if immersive_start_date >= graduation_date
+    if Date.today > Date.parse('2016-05-21')
       true
+      puts "Graduated"
     else
       false
+      puts "Not Graduated Yet"
     end
   end
 
@@ -94,15 +162,8 @@ SF_DBC.num_of_students
 
 SF_DBC.immersive_start_date
 SF_DBC.graduation_date
-SF_DBC.p0_start_date
 SF_DBC.currently_in_phase
 SF_DBC.graduated?
-
-# Refactored Solution
-
-
-
-
 
 # Reflection
 
